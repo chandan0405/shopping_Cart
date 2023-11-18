@@ -1,0 +1,49 @@
+
+.cardCart {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+  margin: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.cardCart img{
+  width: 150px;
+  height: 100px;
+  margin-right: 10px;
+
+}
+.cardCart .productName{
+  width: 350px;
+  margin-right: 10px;
+}
+.cardCart .productPrice{
+  width: 100px;
+  margin-right: 10px;
+}
+.cardCart button{
+  border: 0px;
+  background-color: #ac0d14;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px ;
+  cursor: pointer;
+}
+.cardCart .remove{
+  background-color: #ac0d14;
+}
+.cardCart .remove:hover{
+  background-color: #ac0d14;
+}
+.cardCart button:hover{
+  background-color: #8c090f;
+}
+@media screen and (max-width:680px) {
+  .cardCart img{
+    display: none;
+  }
+}

@@ -1,0 +1,11 @@
+form{
+  margin-top: 10%;
+  height: 100%;
+  width: 40%;
+}
+input{
+  height: 300px;
+  width: 500px;
+  text-align: start;
+  
+}
